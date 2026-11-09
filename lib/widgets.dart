@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 bool isWide(BuildContext c) => MediaQuery.of(c).size.width >= 800;
 int gridCols(BuildContext c) {
   final w = MediaQuery.of(c).size.width;
-  return w >= 1100 ? 4 : (w >= 600 ? 2 : 1);
+  return w >= 1100 ? 3 : (w >= 600 ? 2 : 1);
 }
 
 /// Centers content and limits width on large screens.

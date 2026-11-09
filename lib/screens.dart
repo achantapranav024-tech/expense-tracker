@@ -131,7 +131,7 @@ class ExpensesPage extends StatelessWidget {
           crossAxisCount: gridCols(context),
           shrinkWrap: true,
           physics: const NeverScrollableScrollPhysics(),
-          childAspectRatio: 3.2,
+          childAspectRatio: 2.4,
           mainAxisSpacing: 10,
           crossAxisSpacing: 10,
           children: [

@@ -41725,13 +41725,13 @@ $0(){return A.ay1(this.a,"/add",t.X)},
 $S:0}
 A.Jo.prototype={
 G(a){var s,r,q,p,o,n,m,l,k=null,j=A.tp(a,!0,t.v8),i=A.bn(a,k,t.w).w.a.a
-if(i>=1100)s=4
+if(i>=1100)s=3
 else s=i>=600?2:1
 r=B.c.a6(j.gaqe(),2)
 q=j.b
 p=t.p
 r=A.az1(A.c([new A.tT("Total spent","\u20b9"+r,B.o1,k),new A.tT("Expenses",""+q.length,B.FO,k),new A.tT("Members",""+j.a.length,B.FI,k)],p),!0,!0,!0)
-s=A.c([new A.JK(new A.adC(s,10,10,3.2,k),r,k,B.aw,!1,k,k,B.L5,!0,k,k,3,B.aL,k,k,B.M,B.ay,k),B.fb,A.cq("Recent expenses",k,k,k,A.K(a).ok.w,k,k)],p)
+s=A.c([new A.JK(new A.adC(s,10,10,2.4,k),r,k,B.aw,!1,k,k,B.L5,!0,k,k,3,B.aL,k,k,B.M,B.ay,k),B.fb,A.cq("Recent expenses",k,k,k,A.K(a).ok.w,k,k)],p)
 if(q.length===0)s.push(B.M5)
 for(r=q.length,o=0;o<q.length;q.length===r||(0,A.t)(q),++o){n=q[o]
 p=A.x9(B.mb,B.G1,B.z,B.De,k,k,k,k,k,B.EX,k,k,k)
