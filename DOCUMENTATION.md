@@ -112,6 +112,11 @@ Insert actual screenshots from the running application:
 - Test navigation and layouts at mobile, tablet, and desktop widths.
 - Open the deployed link in an incognito browser window.
 
+Automated verification performed during preparation:
+- `flutter analyze`: no issues found.
+- `flutter test`: all 5 tests passed (3 expense-state tests and 2 responsive-layout tests).
+- `flutter build web --release --base-href "/expense-tracker/" --output docs`: completed successfully.
+
 ## 9. Limitations and future enhancements
 The current app stores member and expense data in Provider memory only. Data resets after a page refresh or application restart. Future improvements may include local or cloud persistence, authentication, expense categories, monthly reports, and PDF/CSV export.
 
